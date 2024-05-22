@@ -1,10 +1,10 @@
 variavel,descricao,tipo,subtipo,escala
 gender,Refere-se ao sexo biológico do indivíduo,qualitativa,nominal,"male, female, other"
-age,Refere-se a idade do indivíduo,quantitativa,discreta,0.08 - 80
-hypertension,Refere-se a condição médica na qual a pressão sanguínea é cronicamente elevada,qualitativa,nominal,0 ou 1
-heart_disease,Refere-se a uma outra condição médica associada a um risco aumentado de desenvolver diabetes,qualitativa,nominal,0 ou 1
-smoking_history,Refere-se a histórico de fumante do indivíduo,qualitativa,nominal,"not current, former, No info, never e ever"
+age,Refere-se a idade do indivíduo,quantitativa,discreta,0.08 - 1(contínua) / 1 - 80(discreta)
+hypertension,Refere-se a condição médica na qual a pressão sanguínea é cronicamente elevada,qualitativa,nominal,"0, 1"
+heart_disease,Refere-se a uma outra condição médica associada a um risco aumentado de desenvolver diabetes,qualitativa,nominal,"0, 1"
+smoking_history,Refere-se a histórico de fumante do indivíduo,qualitativa,nominal,"No info, never, not current, former, current, ever"
 bmi,"Refere-se ao Body Mass Index (índice de massa corporal), o qual mede a gordura corporal em função da altura e peso.",quantitativa,contínua,10.01 - 95.69
 HbA1c_level,"Refere-se ao nível da hemoglobina A1c (hemoglobina glicada), a qual mede a média do nível de açúcar no sangue no período de 2-3 meses.",quantitativa,contínua,3.5 - 9.0
-blood_glucose,Refere-se ao nível de glicose no sangue em um dado intervalo de tempo.,quantitativa,contínua,80 - 300
-diabetes,"É uma condição médica que indica se o paciente possui ou não diabetes, também é a variável alvo",qualitativa,nominal,0 ou 1
+blood_glucose_level,Refere-se ao nível de glicose no sangue em um dado intervalo de tempo.,quantitativa,contínua,80 - 300
+diabetes,"É uma condição médica que indica se o paciente possui ou não diabetes, também é a variável alvo",qualitativa,nominal,"0, 1"
